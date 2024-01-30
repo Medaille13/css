@@ -9,7 +9,7 @@ body {
     background-color: #E0EFFA;
 }
 
-.e {
+.section {
     display: grid;
     grid-template-columns: auto;
     gap: .50rem;
@@ -29,6 +29,67 @@ body {
     box-shadow: 2px 4px 5px 0px rgba(34, 34, 34, 0.40);
 
 }
+
+h1, h2 {
+    font-weight:bolder;
+    margin-left: 20.27px;
+    margin-bottom: 22px;
+    margin-top: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 500px;  
+    margin-left: 20px;  
+    margin-top: 28px;
+    margin-bottom: 22px;
+}
+
+p {
+    font-weight: 300;
+    margin-left: 20.27px;
+}
+
+a { 
+    color: inherit; 
+}
+
+ol, ul {   
+    font-weight: 300;
+}
+
+.enumeration {
+    margin-bottom: 15px;
+    margin-left: 30.4px;
+    font-weight: 300px;
+}
+
+.enumeration_deux{
+    width: 413.476px; 
+    }
+
+.puce {
+    margin-left: 40.54px;
+}
+
+.bloc_retreci {
+    padding-right: 160px;
+    width: 1018.49px;
+}
+
+span.souligne {
+    text-decoration: underline;    
+}
+
 
 
 
@@ -50,79 +111,10 @@ div.boxe {
     border-radius: 100px;
 }*/
 
-h1, h2 {
-    font-weight:bolder;
-    margin-left: 20.27px;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    
-}
-
-h1 {
-    font-size: 40px;
-    
-}
-
-h2 {
-    font-size: 30px;
-}
-
-h2.leger {
-    font-size: 14px;
-    font-weight: normal;
-    margin-top: 25px;
-    margin-bottom: 30px;
-    
-}
-
-h2.enum {
-    margin-left: 30.4px;
-}
-
-h3 {
-    font-size: 26px;
-    font-weight: 500px;  
-    margin-left: 20px;  
-    margin-top: 28px;
-    margin-bottom: 22px;
-}
-
-p {
-    font-weight: 300;
-    margin-left: 20.27px;
-}
-
-a { 
-    color: inherit; 
-}
-
-ol, ul {
-   
-    font-weight: 300;
-}
-
-ol.enum {
-    margin-bottom: 15px;
-    margin-left: 30.4px;
-}
+/*.paragra-phe {
+    /*margin-right: 210px;
+}*/
 
 /*li {
     margin-left: 40.54px;
 }*/
-
-ul.enume {
-    margin-left: 40.54px;
-}
-
-.bloc_retreci {
-    margin-right: 360px;
-    width: 1018.49px;
-}
-
-.paragra-phe {
-    /*margin-right: 210px;*/
-}
-
-span.souligne {
-    text-decoration: underline;    
-}
