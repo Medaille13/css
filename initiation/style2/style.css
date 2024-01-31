@@ -22,34 +22,39 @@ body {
 
 .card {
     background: #FFF;
-    height: 847px;
     width: 1057px;
+    height: 847px;    
     border: 1px solid #FFF;
     border-radius: .5em;
     box-shadow: 2px 4px 5px 0px rgba(34, 34, 34, 0.40);
-
 }
 
 h1, h2 {
-    font-weight:bolder;
+    /*font-weight:bolder;*/
+    font-weight: 700;
     margin-left: 20.27px;
-    margin-bottom: 22px;
+    margin-right: 20.27px;
+    margin-bottom: 21px;
     margin-top: 30px;
 }
 
 h1 {
-    font-size: 40px;
-    font-weight: 700px;
+    font-size: 40px;   
 }
 
 h2 {
     font-size: 30px;
 }
 
+.second_hdeux {
+    margin-bottom: 22px;
+}
+
 h3 {
     font-size: 26px;
-    font-weight: 500px;  
+    font-weight: 500;  
     margin-left: 20px;  
+    margin-right: 20.54px;  
     margin-top: 28px;
     margin-bottom: 22px;
 }
@@ -67,23 +72,44 @@ ol, ul {
     font-weight: 300;
 }
 
-.enumeration {
-    margin-bottom: 15px;
+li {
     margin-left: 30.4px;
+
+}
+
+.enumeration {
+    width: 421.57px; 
+    margin-bottom: 15px;
+    margin-left: 16.13px;
     font-weight: 300px;
 }
 
 .enumeration_deux{
-    width: 413.476px; 
+    width: 453.476px; 
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 16.13px;
+    margin-right: 613.12px;
+    height: 57px;
     }
 
 .puce {
-    margin-left: 40.54px;
+    margin-left: 20.54px;
+    margin-bottom: 30px;
 }
 
 .bloc_retreci {
     padding-right: 160px;
     width: 1018.49px;
+}
+
+.bloc_retreci_deux {
+    padding-right: 10px;
+    width: 1018.49px;
+}
+
+.dernier_paragraphe {
+    margin-bottom: 15px;
 }
 
 span.souligne {
