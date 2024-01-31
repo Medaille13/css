@@ -10,33 +10,42 @@ body {
     background-color: #E0EFFA;
 }
 
+/*#section {
+    background-color: green;
+}*/
+
 .section {
     display: grid;
     grid-template-columns: auto;
     gap: .50rem;
     align-items: center;
-    margin-left: 471px;
-    margin-top: 97px;
-    margin-right: 392px;
-    margin-bottom: 996px;
+    background: rgb(0, 255, 234);
+    /*margin: auto auto auto auto;*/
+    /*margin : 0 auto 0; /*comprend haut, puis gauche droite et bas*/
+    /*margin : auto;/*
+    /*margin : 0 auto le 0 c'est haut-bas et la seconde valeur droite gauche*/
+
 }
+
+
+/*margin = exterieur   padding intérieur de la card */
 
 .card {
     background: #FFF;
+    margin : 100px auto 10px ;
     width: 1057px;
-    height: 847px;    
+    /*height: 847px;*/    
+    padding: 30px 20px 20px 30px;
     border: 1px solid #FFF;
-    border-radius: .5em;
+    border-radius: 30px;
     box-shadow: 2px 4px 5px 0px rgba(34, 34, 34, 0.40);
 }
 
 h1, h2 {
     /*font-weight:bolder;*/
     font-weight: 700;
-    margin-left: 20.27px;
-    margin-right: 20.27px;
     margin-bottom: 21px;
-    margin-top: 30px;
+    
 }
 
 h1 {
@@ -45,6 +54,7 @@ h1 {
 
 h2 {
     font-size: 30px;
+    margin-top: 30px;
 }
 
 .second_hdeux {
@@ -54,15 +64,12 @@ h2 {
 h3 {
     font-size: 26px;
     font-weight: 500;  
-    margin-left: 20px;  
-    margin-right: 20.54px;  
     margin-top: 28px;
     margin-bottom: 22px;
 }
 
 p {
     font-weight: 300;
-    margin-left: 20.27px;
 }
 
 a { 
@@ -81,21 +88,21 @@ li {
 .enumeration {
     width: 421.57px; 
     margin-bottom: 15px;
-    margin-left: 16.13px;
-    font-weight: 300px;
+    /*margin-left: 16.13px;*/
+    font-weight: 300;
 }
 
 .enumeration_deux{
     width: 453.476px; 
     margin-top: 15px;
     margin-bottom: 30px;
-    margin-left: 16.13px;
+    /*margin-left: 16.13px;*/
     margin-right: 613.12px;
     height: 57px;
     }
 
 .puce {
-    margin-left: 20.54px;
+    /*margin-left: 20.54px;/**/
     margin-bottom: 30px;
 }
 

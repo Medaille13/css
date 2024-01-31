@@ -6,11 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
-    <link href="./style2/style.css<?php echo '?v='.time(); ?>" rel="stylesheet" type="text/css" />
+    <link href="./style2/main.css<?php echo '?v='.time(); ?>" rel="stylesheet" type="text/css" />
     <title>Initiation</title>
 </head>
 <body>
-    <section class="section">
+    <section class="section" id="section" <!--style="background:black"-->
         <article class="card">
 
             <h1>H1 HTML Ipsum Presents</h1>
