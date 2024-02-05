@@ -29,88 +29,99 @@ body {
         border: 1px solid #FFF;
         border-radius: 30px;
         box-shadow: 2px 4px 5px 0px rgba(34, 34, 34, 0.40);
+
+        h1, h2 {
+            /*font-weight:bolder;*/
+            font-weight: 700;
+            margin-bottom: 21px;
+        }
+
+        h1 {
+            font-size: 40px;   
+        }
         
-        .second_hdeux {
+        h2 {
+            font-size: 30px;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font-size: 26px;
+            font-weight: 500;  
+            margin-top: 28px;
             margin-bottom: 22px;
+        }
+        
+        p {
+            font-weight: 300;
+        }
+        
+        a { 
+            color: inherit; 
+        }
+        
+        ol, ul {   
+            font-weight: 300;
+        }
+        
+        li {
+            margin-left: 30.4px;
+        }
+        
+        .bloc_retreci {
+            padding-right: 160px;
+            width: 1018.49px;
             
-            enumeration {
-                width: 421.57px; 
-                margin-bottom: 15px;
-                /*margin-left: 16.13px;*/
-                font-weight: 300;
+            .souligne {
+                text-decoration: underline;    
+            }     
+        }  
+        
+        .enumeration {
+            width: 421.57px; 
+            margin-bottom: 15px;
+            /*margin-left: 16.13px;*/
+            font-weight: 300;
+            
+            .bloc_retreci_deux {
+                padding-right: 10px;
+                width: 1018.49px;
+            }    
+        }    
+        
+        .puce {
+            /*margin-left: 20.54px;/**/
+            margin-bottom: 30px;
+        }
+        
+        
+        .bloc_retreci {
+            padding-right: 160px;
+            width: 1018.49px;
+            
+            .bloc_retreci {
+                padding-right: 160px;
+                width: 1018.49px;
                 
-                .enumeration_deux{
-                    width: 453.476px; 
-                    margin-top: 15px;
-                    margin-bottom: 30px;
-                    /*margin-left: 16.13px;*/
-                    margin-right: 613.12px;
-                    height: 57px;
+                .second_hdeux {
+                    margin-bottom: 22px;
                     
-                    .puce {
-                        /*margin-left: 20.54px;/**/
-                        margin-bottom: 30px;
-                        
-                        .bloc_retreci {
-                            padding-right: 160px;
-                            width: 1018.49px;
-                            
-                            .bloc_retreci_deux {
-                                padding-right: 10px;
-                                width: 1018.49px;
-                                
-                                .dernier_paragraphe {
-                                    margin-bottom: 15px;
-                                    
-                                    .souligne {
-                                        text-decoration: underline;    
-                                    }  
-                                }
-                            }
-                        }
-                    }
+                    .dernier_paragraphe {
+                        margin-bottom: 15px;       
+                    }                 
                 }
             }
         }
+        
+        .enumeration_deux{
+            width: 453.476px; 
+            margin-top: 15px;
+            margin-bottom: 30px;
+            /*margin-left: 16.13px;*/
+            margin-right: 613.12px;
+            height: 57px;                    
+        }    
     }
 }
 
 /*margin = exterieur   padding intérieur de la card */
-
-h1, h2 {
-    /*font-weight:bolder;*/
-    font-weight: 700;
-    margin-bottom: 21px;
-}
-
-h1 {
-    font-size: 40px;   
-}
-
-h2 {
-    font-size: 30px;
-    margin-top: 30px;
-}
-
-h3 {
-    font-size: 26px;
-    font-weight: 500;  
-    margin-top: 28px;
-    margin-bottom: 22px;
-}
-
-p {
-    font-weight: 300;
-}
-
-a { 
-    color: inherit; 
-}
-
-ol, ul {   
-    font-weight: 300;
-}
-
-li {
-    margin-left: 30.4px;
-}

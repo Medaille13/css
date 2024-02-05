@@ -10,7 +10,7 @@
     <title>Initiation</title>
 </head>
 <body>
-    <section class="section" id="section" <!--style="background:black"-->
+    <section class="section">
         <article class="card">
 
             <h1>H1 HTML Ipsum Presents</h1>
@@ -61,7 +61,7 @@
                         <li>Vestibulum auctor dapibus neque.</li>
                     </ol>       
                 </div>
-            </article>                   
-        </section>                   
+            </article>  
+        </section>            
     </body>
 </html>
