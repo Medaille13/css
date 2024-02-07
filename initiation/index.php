@@ -10,6 +10,7 @@
     <title>Initiation</title>
 </head>
 <body>
+    <main>
     <section class="section">
         <article class="card">
 
@@ -62,6 +63,14 @@
                     </ol>       
                 </div>
             </article>  
-        </section>            
+        </section>     
+            <section class="section section2">
+                <div class="content_pixel">
+                    <div class="pixelart-to-css">
+
+                    </div>
+                </div>
+            </section>  
+        </main>     
     </body>
 </html>
