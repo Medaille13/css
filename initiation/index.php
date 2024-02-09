@@ -12,6 +12,7 @@
 <body>
     <main>
     <section class="section">
+        <button id="anime">Anime le chat</button>
         <article class="card">
 
             <h1>H1 HTML Ipsum Presents</h1>
@@ -65,12 +66,14 @@
             </article>  
         </section>     
             <section class="section section2">
-                <div class="content_pixel">
+                <div class="content_pixel" id="chat">
                     <div class="pixelart-to-css">
 
                     </div>
                 </div>
             </section>  
-        </main>     
+        </main>  
+        <script src="./js/javascript.js<?php echo '?v='.time(); ?>">
+        </script>   
     </body>
 </html>
